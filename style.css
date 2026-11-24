@@ -53,6 +53,18 @@ li {
     text-align: left;
 }
 
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+li button {
+    background: #e98aaa;
+    padding: 8px 12px;
+}
+
 .container {
     background: white;
     width: 400px;
